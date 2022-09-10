@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revenue Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="totalrevenueRadio" name="variables" checked>
+  <label for="totalrevenueRadio">Total revenue</label>
+
+  <input type="radio" id="priceRadio" name="variables">
+  <label for="priceRadio">Price</label>
+
+  <input type="radio" id="quantityRadio" name="variables">
+  <label for="quantityRadio">Quantity</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Price</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Quantity</label>
+  <input type="number" id="v2"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
